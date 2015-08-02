@@ -8,162 +8,220 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
+  <header>
+    <div class="header-wrap">
+      <div class="row">
+        <div class="large-5 large-offset-2 medium-7 small-12 columns">
+          <div class="icon-bar four-up">
+            <a class="item active">
+              <img class="more-icons right" src="images/more-icons.png" >
+              <div class="item-wrap">
+                <img src="images/icon-bar-img1.png" >
+                <label>About</label>
+              </div>
+            </a>
+            <a class="item">
+              <img class="more-icons right" src="images/more-icons.png" >
+              <div class="item-wrap">
+                <img src="images/icon-bar-img2.png" >
+                <label>Explore</label>
+              </div>
+            </a>
+            <a class="item">
+              <img class="more-icons right" src="images/more-icons.png" >
+              <div class="item-wrap">
+                <img src="images/icon-bar-img3.png" >
+                <label>Blog</label>
+              </div>
+            </a>
+            <a class="item">
+              <img class="more-icons right" src="images/more-icons.png" >
+              <div class="item-wrap">
+                <img src="images/icon-bar-img4.png" >
+                <label>shop</label>
+              </div>
+            </a>
           </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
+        </div>
+        <div class="large-3 medium-3 small-6 columns">
+          <div class="search">
+            <input class="right" type="text" placeholder="Search" style="width: 80%">
+          </div>
+        </div>
+        <div class="large-2 medium-2 small-6 columns">
+          <div class="login-block">
+            <img class="key right" src="images/key.png">
+            <div class="login-wrap">
+              <img class="lock" src="images/lock.png">
+              <a href="#">Login</a>
             </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
           </div>
         </div>
       </div>
     </div>
-
+  </heder>
+  <section class="main-wrap">
     <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
+      <ul class="side-nav bookmarks left">
+        <li>
+          <a href="#">
+            <img src="images/ic_shopping_basket_black.png">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/ic_account_black.png">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/ic_create_black.png">
+          </a>
+        </li>
+        <li class="divider"></li>
+        <li>
+          <a href="#">
+            <img src="images/ic_map_bookmark1.png">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/ic_map_bookmark2.png">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/ic_map_bookmark3.png">
+          </a>
+        </li>
+      </ul>
+      <div class="map left">
+        <img src="images/map.jpg">
+      </div>
+      <div class="trial-description left">
+        <div class="trail-title-block">
+          <div class="buttons-block">
+            <a href="#" class="left btn-item">
+              <img src="images/ic_clear_black.png">
+            </a>
+            <a href="#" class="left btn-item">
+              <img src="images/ic_bookmark_green.png">
+            </a>
           </div>
+          <h1>grand castle <br> mountain trail</h1>
+          <ul class="tabs" data-tab role="tablist">
+            <li class="tab-title active" role="presentation"><a href="#panel1" role="tab" tabindex="0" aria-selected="true" aria-controls="panel2-1">About</a></li>
+            <li class="tab-title" role="presentation"><a href="#panel2" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-2">pulse</a></li>
+          </ul>
         </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
+        <div class="tabs-content">
+          <div class="content active" id="panel1">
+            <ul>
+              <li><img src="images/ic_difficulty.png"></li>
+              <li><span class="title">Difficulty</span></li>
+              <li><span>9/12</span></li>
+            </ul>
+            <ul>
+              <li><img src="images/ic_length.png"></li>
+              <li><span class="title">length</span></li>
+              <li><span>28.3 km</span></li>
+            </ul>
+            <ul>
+              <li><img src="images/ic_duration.png"></li>
+              <li><span class="title">Duration</span></li>
+              <li><span>~2 days</span></li>
+            </ul>
+            <div class="direction-block">
+              <h3>Passage ways</h3>
+              <div class="direction-item">
+                <img src="images/ic_directions_bike.png">
+                <p>on bike</p>
+              </div>
+              <div class="direction-block">
+                <img src="images/ic_directions_walk.png">
+                <p>on foot</p>
+              </div>
+              <div class="about-block">
+                <h3>About trail</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="guided-tours-block">
+                <h3>Guided tours</h3>
+                <div class="guided-tour-item">
+                  <img src="images/guided-tour.jpg">
+                  <p>Sightseeing Bike Tour<br><span>$ 123</span></p>
+                  <a href="#" class="right">
+                    <img src="images/ic_add_shopping_cart.png">
+                  </a>
                 </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
+                <div class="guided-tour-item">
+                  <img src="images/guided-tour.jpg">
+                  <p>Washberm Mountain Tour<br><span>$ 155</span></p> 
+                  <a href="#" class="right">
+                    <img src="images/ic_add_shopping_cart.png">
+                  </a>
+                </div>
+                <div class="guided-tour-item">
+                  <img src="images/guided-tour.jpg">
+                  <p>Blue Peack Tour<br><span>$ 93</span></p>
+                  <a href="#" class="right">
+                    <img src="images/ic_add_shopping_cart.png">
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
+          <div class="content" id="panel2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
         </div>
       </div>
     </div>
-
+  </section>
+  <footer>
+    <div class="row">
+      <div class="large-4 large-offset-4 small-12 columns">
+        <ul class="dropdown-block">
+          <li>
+            <button href="#" data-dropdown="drop1" data-options="align:top" aria-controls="drop1" aria-expanded="false" class="button">flora</button><br>
+            <ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="true">
+              <li><a class="active" href="#">Noxious plants</a></li>
+              <li><a href="#">Drug plants</a></li>
+              <li><a href="#">Rare plants</a></li>
+              <li><a href="#">Protected plants</a></li>
+            </ul>
+          </li>
+          <li>
+            <button href="#" data-dropdown="drop2" data-options="align:top" aria-controls="drop2" aria-expanded="false" class="button">founa</button><br>
+            <ul id="drop2" data-dropdown-content class="f-dropdown" aria-hidden="true">
+              <li><a href="#">Noxious plants</a></li>
+              <li><a href="#">Drug plants</a></li>
+              <li><a href="#">Rare plants</a></li>
+              <li><a href="#">Protected plants</a></li>
+            </ul>
+          </li>
+          <li>
+            <button href="#" data-dropdown="drop3" data-options="align:top" aria-controls="drop3" aria-expanded="false" class="button">trail</button><br>
+            <ul id="drop3" data-dropdown-content class="f-dropdown" aria-hidden="true">
+              <li><a href="#">Noxious plants</a></li>
+              <li><a href="#">Drug plants</a></li>
+              <li><a href="#">Rare plants</a></li>
+              <li><a href="#">Protected plants</a></li>
+            </ul>
+          </li>
+          <li>
+            <button href="#" data-dropdown="drop4" data-options="align:top" aria-controls="drop4" aria-expanded="false" class="button">all</button><br>
+            <ul id="drop4" data-dropdown-content class="f-dropdown" aria-hidden="true">
+              <li><a href="#">Noxious plants</a></li>
+              <li><a href="#">Drug plants</a></li>
+              <li><a href="#">Rare plants</a></li>
+              <li><a href="#">Protected plants</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
